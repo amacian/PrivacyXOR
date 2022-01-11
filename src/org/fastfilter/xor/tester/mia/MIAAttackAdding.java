@@ -60,7 +60,7 @@ public class MIAAttackAdding {
 		boolean[] seedDef = new boolean[rebuiltTarget];
 		
 		long seed = 12341234;
-		XorSimpleNFixedSeed filter = XorSimpleNFixedSeed.construct(positives, fingerbits, seed);
+		XorSimpleNFixedSeed filter = XorSimpleNFixedSeed.construct(positives, fingerbits, seed, true, false);
 		
 				
 		MIAAttackAdding.checkPositives(filter, helper);
@@ -85,7 +85,7 @@ public class MIAAttackAdding {
 			for (int j=0; j<elementsToAdd;j++) {
 				helper.add(MIAAttackAdding.buildLong(helper, null));
 			}
-			filter = XorSimpleNFixedSeed.construct(helper, fingerbits, seed);
+			filter = XorSimpleNFixedSeed.construct(helper, fingerbits, seed, true, false);
 			
 			for (Iterator<Long> it = fp.iterator(); it.hasNext();) {
 				Long fpl = it.next();
