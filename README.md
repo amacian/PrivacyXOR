@@ -1,7 +1,7 @@
 # PrivacyXOR
 This repository includes the implementation in Java of Xor Filter Privacy Attacks for the paper:
 
-P. Reviriego, A. Sánchez-Macián, P.C. Dillinger and S. Walzer, "Element Privacy in Approximate MembershipCheck Filters", under submission to IEEE Transactions on Information Forensics and Security.
+P. Reviriego, A. Sánchez-Macián, P.C. Dillinger and S. Walzer, "On the Privacy of Approximate Membership Check Filters under Persistent Attacks", under submission to IEEE Transactions on Dependable and Secure Computing (TDSC).
 
 # Dependencies
 - Fastfilter Java implementation: https://github.com/FastFilter/fastfilter_java/
